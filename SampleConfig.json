@@ -1,0 +1,48 @@
+
+{
+    "server":{
+        "url":"https://xxx:30443/arcgis",
+        "username": "admin",
+        "password": "xxx",
+        "password_encoding": false,
+        "paging_size":50
+    },
+    
+    "ArcSOCOptimizer":{
+        "edit":false,
+        "past_days":7,
+
+        "low_usage":{   
+            "avg_sec/day":5,
+            "dedicated_to_shared": true,
+            "dedicated_instance_min":1
+        },
+        "high_usage":
+        {
+            "avg_sec/day":50, 
+            "shared_to_dedicated": true
+        },
+        "component_address": "https://xxx:6443/arcgis",
+        "arcgis_server":{
+            "server_admin_url": "https://xxxx:6443/arcgis", 
+            "token_url": "https://xxx:6443/arcgis/admin/generateToken",       
+            "client":"requestip",
+            "referer":"referer-value",         
+            "username": "xxx",
+            "password": "xxx",
+            "password_encoding": false,
+            "host_address":["xxx"]
+        },
+        "limits":{
+            "memory_available_GB":1,
+            "min_ceil":8,
+            "max_min_diff":2
+        },
+        "exclude": {
+            "services": [], 
+            "folders": ["hosted","System", "Utilities"]
+          }
+    }
+}
+
+ 
