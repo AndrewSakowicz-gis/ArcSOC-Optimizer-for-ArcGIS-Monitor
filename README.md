@@ -41,10 +41,8 @@ pip install -r requirements.txt
 pyinstaller.exe ArcSOCOptimizer.py --onefile
 ```
  
-## Contributing
-
-We welcome pull requests from anyone! If you're interested in contributing to this project, check out [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Contact
 If you're looking for more info about this project, please contact asakowicz@esri.com
+
 
