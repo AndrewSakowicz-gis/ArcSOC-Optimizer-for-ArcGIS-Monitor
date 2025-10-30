@@ -1,5 +1,5 @@
 <div align="center">
-  <h3 align="center">Discover your power with ArcGIS Monitor</h3>
+  <h3 align="center">ArcSOC Optimizer for ArcGIS Monitor</h3>
 </div>
 
   
@@ -47,3 +47,4 @@ We welcome pull requests from anyone! If you're interested in contributing to th
 
 ## Contact
 If you're looking for more info about this project, please contact asakowicz@esri.com
+
